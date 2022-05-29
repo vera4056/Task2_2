@@ -6,7 +6,7 @@ public class Main {
         int deposit = 1300;
         int currentBalance = initialBalance + deposit;
         int bonus = currentBalance / 100; // 100 %
-        if (currentBalance > 1001) {
+        if (currentBalance >= 1001) {
             bonus = currentBalance / 100;
         }
         if (currentBalance < 1001) {
